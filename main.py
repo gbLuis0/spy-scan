@@ -3,7 +3,7 @@ from os import system, name
 try:
     from pyfiglet import Figlet
 except:
-    system('pip install pyfiglet -y')
+    system('pip install pyfiglet')
 finally:
     from pyfiglet import Figlet
 
